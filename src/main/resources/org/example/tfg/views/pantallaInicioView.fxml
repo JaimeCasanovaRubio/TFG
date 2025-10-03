@@ -15,6 +15,6 @@
       </Label>
       <Button layoutX="261.0" layoutY="119.0" mnemonicParsing="false" text="Empezar" />
       <Button layoutX="258.0" layoutY="174.0" mnemonicParsing="false" text="Controles" />
-      <Button layoutX="267.0" layoutY="227.0" mnemonicParsing="false" text="Cerrar" />
+      <Button fx:id="btnCerrar" layoutX="267.0" layoutY="227.0" mnemonicParsing="false" onAction="#cerrar" text="Cerrar" />
    </children>
 </AnchorPane>
