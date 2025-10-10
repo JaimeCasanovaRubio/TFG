@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.PantallaJuegoController">
+   <children>
+      <Label layoutX="184.0" layoutY="45.0" text="Pantalla de Juego">
+         <font>
+            <Font size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="198.0" layoutY="126.0" text="Aquí va la lógica de tu juego..." />
+      <Button layoutX="257.0" layoutY="322.0" mnemonicParsing="false" onAction="#volverAlMenu" text="Volver al Menú" />
+   </children>
+</AnchorPane>
