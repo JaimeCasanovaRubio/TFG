@@ -22,6 +22,14 @@ En este commit inicial, se ha establecido la arquitectura base para la navegaci�
 -   **Navegación Básica**: Se ha implementado la navegación funcional entre tres pantallas: el menú de inicio, la pantalla de controles y una pantalla de juego base.
 -   **Configuración de Maven**: El archivo `pom.xml` está configurado para compilar y ejecutar el proyecto JavaFX correctamente.
 
+### Commit 2: Implementación del Sistema de NPCs y Pedidos
+
+Este commit introduce la lógica fundamental para los Personajes No Jugadores (NPCs) y el sistema de pedidos.
+-   **Modelo de Datos de NPC:** Se han creado las clases `Ingrediente`, `Pedido` y `ListaIngredientes` para dar soporte al sistema.
+-   **Generación de Pedidos:** La clase `modeloNPC` ahora contiene la lógica para generar un pedido aleatorio compuesto por 4 ingredientes únicos.
+-   **Documentación Completa (JavaDoc):** Se ha documentado exhaustivamente todo el código nuevo y se ha mejorado y unificado el estilo de la documentación en las clases existentes.
+-   **Modularidad Corregida:** Se ha actualizado el fichero `module-info.java` para exportar los nuevos paquetes del sistema de NPCs, permitiendo que la documentación se genere correctamente.
+
 ---
 
 ## Documentación (Javadoc)
@@ -63,6 +71,6 @@ mvn clean javafx:run
 ## Estructura del Proyecto
 
 -   `src/main/java/org/example/tfg/`: Contiene las clases principales de la aplicación, como `Main.java` y el gestor de navegación `ControlEscenas.java`.
--   `src/main/java/controller/`: Contiene las clases controladoras para cada una de las vistas FXML.
+-   `src/main/java/org.example.tfg.controller/`: Contiene las clases controladoras para cada una de las vistas FXML.
 -   `src/main/resources/org/example/tfg/views/`: Contiene los archivos de diseño de la interfaz de usuario (`.fxml`).
 -   `pom.xml`: Define las dependencias del proyecto y la configuración de Maven.

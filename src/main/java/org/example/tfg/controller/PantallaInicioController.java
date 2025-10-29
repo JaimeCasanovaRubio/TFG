@@ -1,4 +1,4 @@
-package controller;
+package org.example.tfg.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

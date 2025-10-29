@@ -1,17 +1,17 @@
-package controller;
+package org.example.tfg.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import org.example.tfg.ControlEscenas;
 
 /**
- * Controlador de la pantalla de controles del juego.
- * Gestiona la visualización de los controles y la navegación de regreso al menú principal.
+ * Controlador de la pantalla principal del juego.
+ * Gestiona la lógica del juego y la navegación de regreso al menú principal.
  * 
  * @author Jaime
  * @version 1.0
  */
-public class PantallaControlesController {
+public class PantallaJuegoController {
 
     /**
      * Referencia al controlador de escenas para la navegación entre pantallas.

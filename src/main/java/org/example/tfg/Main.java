@@ -26,6 +26,8 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         stage.setTitle("Juego de TFG");
 
+
+
         ControlEscenas controlEscenas = new ControlEscenas(stage);
         controlEscenas.showStartScreen();
 
