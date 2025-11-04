@@ -4,8 +4,8 @@ Este proyecto es un juego en desarrollo para un Trabajo de Fin de Grado (TFG), c
 
 ## Autores
 
-*   Jaime Casanova
-*   Olga Marco
+*   Jaime Casanova Rubio
+*   Olga Marco Ugarte
 
 ---
 
